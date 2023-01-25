@@ -1,8 +1,12 @@
 .card{
     margin-top: 1rem;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     box-sizing: border-box;
     
+}
+
+.heading{
+    font-size: xx-large;
 }
 
 .br{
@@ -10,7 +14,7 @@
 }
 
 .margin_right{
-    margin-left: 71rem;
+    text-align: right;
 }
 button.close{
     border: 0;
@@ -18,4 +22,51 @@ button.close{
 
 .margin_left{
     margin-left: 1rem;
+}
+.addressBox{
+    border: 1px solid gainsboro;
+    padding: 1rem;
+}
+
+.innerAddressBox{
+    border: 1px solid gainsboro;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.margin_bottom{
+    margin-top: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+    .spaceUp{
+        margin-top: 1rem;
+    }
+    .responsiveWidth{
+        width: 15.625rem;
+    }
+
+    .buttonResponsive{
+        text-align: center;
+        height: 3rem;
+        width: 7.75rem;
+        margin-right: 0.625rem;
+        margin-left: 0px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .buttonResponsive{
+        height: 3rem;
+        width: 7.75rem;
+        
+        margin-right: 0.625rem;
+    }
 }

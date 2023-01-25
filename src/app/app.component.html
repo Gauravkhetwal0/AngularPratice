@@ -1,19 +1,42 @@
-<nav class="navbar navbar-expand navbar-light bg-light">
-  <div class="nav-left">
-    <ul class="nav nav-pills">
-      <li>
-        <a href="" class="nav-link" routerLink="/welcome">{{ pageTitle }}</a>
-      </li>
-      <li>
-        <a href="" class="nav-link" routerLink="/products">Product List</a>
-      </li>
-    </ul>
-  </div>
-  <div class="nav-right">
-    <ul class="nav nav-pills">
-      <li><a href="" class="nav-link" routerLink="/customer">Sign Up</a></li>
-    </ul>
-  </div>
+<nav class="navBar">
+  <a class="navbar-title" routerLinkActive="active" [routerLink]="['/welcome']"
+    ><img
+      src="./assets/images/logo.jpg"
+      class="img_logo"
+      style="max-height: 40px"
+  /></a>
+  <ul class="navbar-ul" *ngIf="!hidden || screenWidth > 750">
+    <li class="nav-li">
+      <a
+        class="a-link"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [routerLink]="['/products']"
+        >Product List</a
+      >
+    </li>
+    <li class="nav-li">
+      <a
+        class="a-link"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [routerLink]="['/products/0/edit']"
+        >Add Product</a
+      >
+    </li>
+    <li class="nav-li">
+      <a
+        class="a-link"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [routerLink]="['/signup']"
+        >Sign Up</a
+      >
+    </li>
+  </ul>
+  <button class="img_menu" (click)="toggleMenu()">
+    <img src="./assets/images/menu.png" style="max-height: 40px" />
+  </button>
 </nav>
 
 <div class="container">

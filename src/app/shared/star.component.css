@@ -1,9 +1,6 @@
-.crop{
-    overflow: hidden;
+.crop {
+  overflow: hidden;
 }
-div{
-    cursor: pointer;
-}
-.innerCrop{
-    width: 75px;
+div {
+  cursor: pointer;
 }

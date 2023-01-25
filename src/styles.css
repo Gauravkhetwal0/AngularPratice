@@ -3,6 +3,34 @@
 @import "~font-awesome/css/font-awesome.min.css";
 
 
+body{
+  height: 100vh;
+   background-color: #97A6A0;
+   /* cadetblue;  */
+}
+
+.tagName{
+  font-weight: 500;
+    
+}
+
+
+
+.deleteButton{
+  font-size: 36px;
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+
+/* 
+
+              <!-- <td *ngIf="filteredProducts.length === 0">
+                No data matching the filter "{{ listFilter }}"
+              </td> -->
 div.card-header {
     font-size: large;
    }
@@ -20,4 +48,4 @@ div.card-header {
    }
    a:hover {
      text-decoration: underline;
-   }
+   }  */

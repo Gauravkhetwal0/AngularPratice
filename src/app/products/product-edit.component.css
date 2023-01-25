@@ -1,0 +1,43 @@
+.buttonClass{
+    display: block;
+    height: 2rem;
+    width: 3rem;
+    padding-right: .8rem;
+    padding-bottom: 2rem;
+    /* top: -1rem; */
+    /* text-align: center; */
+}
+
+
+.heading{
+    font-size: xx-large;
+}
+
+button{
+    text-align: center;
+    
+    /* font-size: large; */
+}
+/* 
+.deleteButton{
+    font-size: 40px;
+    line-height: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+} */
+
+
+
+
+/* .spaceBetween{
+margin-top: -10px;
+} */
+
+
+.removeSpaceDiv
+{
+    margin-bottom: 10px;
+
+}

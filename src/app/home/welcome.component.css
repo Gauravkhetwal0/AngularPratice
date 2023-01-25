@@ -1,0 +1,30 @@
+.img_main{
+    position:relative;
+    overflow: hidden;
+    max-height: 300px;
+        padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 600px){
+    .img_main{
+        max-height: 250px;
+        max-width: 250px;
+        
+    }
+} 
+/* img-responsive center-block */
+
+
+
+
+
+/* 
+style="
+max-height: 300px;
+padding-bottom: 50px;
+@media screen and (max-width: 600px) {
+  max-width: 300px;
+  max-height: 150px;
+}
+" */

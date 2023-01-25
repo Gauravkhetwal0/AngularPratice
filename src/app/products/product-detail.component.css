@@ -1,0 +1,16 @@
+
+
+
+.heading{
+    font-size: xx-large;
+}
+
+
+@media screen and (max-width: 770px){
+    
+.margin_right{
+    margin-left: 10rem;
+    
+
+}
+}
