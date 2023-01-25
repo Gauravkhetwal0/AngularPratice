@@ -1,0 +1,17 @@
+/* hoisting means when the interpeter moves deleartion of function, variable or class to the top of the function */
+.card-body{
+    margin: 10px;
+}
+
+
+.row{
+    padding : 10px;
+}
+
+thead{
+    color: #337AB7;
+}
+
+.number_right{
+    text-align: right;
+}

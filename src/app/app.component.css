@@ -1,0 +1,33 @@
+a{
+    padding: 10px;
+}
+
+nav{
+    background-color: #222;
+    display: flex;
+    padding-left: 8rem;
+    font-size: larger;
+
+}
+.navbar{
+    background-color: #222;
+}
+.nav-left{
+ flex: 4;
+}
+.nav-right{
+    flex: 1;
+}
+
+
+
+
+
+
+/* 
+
+Blue color :  #428bca 
+Black color: #222
+
+
+*/

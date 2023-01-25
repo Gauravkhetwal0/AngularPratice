@@ -1,0 +1,21 @@
+.card{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    box-sizing: border-box;
+    
+}
+
+.br{
+    margin-left: 4rem;
+}
+
+.margin_right{
+    margin-left: 71rem;
+}
+button.close{
+    border: 0;
+}
+
+.margin_left{
+    margin-left: 1rem;
+}
